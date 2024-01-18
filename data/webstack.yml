@@ -1,5 +1,21 @@
 ---
 
+- taxonomy: 临时置顶
+  icon: far fa-star
+  links: 
+    - title: NFT-birthday-1U
+      logo: 
+      url: https://birthday.squidrouter.com/
+      description: 截止到1月31日晚12点，要求当前链上eth>0.0025
+    - title: BP-FLAC
+      logo: 
+      url: https://www.wod.ai/Faucet
+      description: 每天领水
+    - title: XION
+      logo: 
+      url: https://xion.bonusblock.io/
+      description: 推荐两个人可以领NFT
+
 - taxonomy: 钱包插件
   icon: far fa-star
   links: 
@@ -43,6 +59,7 @@
       logo: TokenPocket.png
       url: https://www.tokenpocket.pro/
       description: ""
+
 
 - taxonomy: 四件套
   icon: far fa-star
@@ -97,7 +114,6 @@
           logo: zkSwap.png
           url: https://zkswap.finance/zkflow
           description: 查交互信息，tx数，推荐dapp
-
         - title: Maverick
           logo: Maverick.png
           url: https://app.mav.xyz/
@@ -125,18 +141,80 @@
     - term: 办公学习
       links:
 
+
+
         
 
-- taxonomy: 悠闲娱乐
+- taxonomy: 测试网
   icon: fas fa-film fa-lg
   list:
-    - term: 影音视频
+    - term: 测试网领水
       links:
+        - title: Quicknode-首选，不需要注册
+          logo: 
+          url: https://faucet.quicknode.com/ethereum/holesky
+          description: 各个链都有，Sepolia/Holesky/Goerli
+        - title: sepoliafaucet-需要注册
+          logo: 
+          url: https://sepoliafaucet.com/
+          description: ""
+        - title: BTC领测试币
+          logo: 
+          url: https://bitcoinfaucet.uo1.net/send.php
+          description: ""
 
-    - term: 游戏竞技
+
+
+    - term: Taiko-20M
       links:
+        - title: Chainlist添加Taiko
+          logo: taiko.svg
+          url: https://chainlist.org/chain/167008
+          description: ""
+        - title: 领水Holesky
+          logo: taiko.svg
+          url: https://faucet.quicknode.com/ethereum/holesky
+          description: ""
+        - title: Bridge to Katla
+          logo: taiko.svg
+          url: https://bridge.katla.taiko.xyz/
+          description: Holesky->Katla 0.05e
+        - title: Katla swap
+          logo: taiko.svg
+          url: https://swap.katla.taiko.xyz/#/swap?chain=taiko-katla
+          description: swap+pool         
+        - title: 部署合约Thirdweb
+          logo: taiko.svg
+          url: https://thirdweb.com/explore
+          description: NFT or Token
+        - title: 加入Taiko-DC
+          logo: taiko.svg
+          url: https://discord.com/invite/taikoxyz
+          description: ""
 
-   
+    - term: SatoshiVM
+      links:
+        - title: 官网
+          logo: SatoshiVM.png
+          url: https://www.satoshivm.io/
+          description: 从官网进TW和DC
+        - title: 小狐狸添加SatoshiVM测试网
+          logo: SatoshiVM.png
+          url: https://docs.satoshivm.io/user-guide/network-information#network-configuration
+          description: 
+        - title: 领BTC测试币
+          logo: SatoshiVM.png
+          url: https://bitcoinfaucet.uo1.net/send.php
+          description: 测试网，Native Segwit的地址（m/84）
+        - title: 领Sepolia测试币
+          logo: SatoshiVM.png
+          url: https://faucet.quicknode.com/ethereum/sepolia
+          description: 如果不能领就去上面其他网址领水
+        - title: BTC和Sepolia来回Bridge
+          logo: SatoshiVM.png
+          url: https://bridge.satoshivm.io/
+          description: BTC->SatoshiVM, Sepolia->SatoshiVM
+
       
 - taxonomy: 素材资源
   icon: far fa-folder-open fa-lg
